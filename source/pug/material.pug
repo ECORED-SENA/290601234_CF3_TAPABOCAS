@@ -36,12 +36,10 @@ html(lang="es")
                             .card-body
 
                                 ul.list-group.list-group-flush.list.my-n3.nav-temas
-                                    +navTemaItem('1', 'Investigación de mercados', '#tema-1')
-                                    +navTemaItem('2', 'Tipos de investigación de mercados.', '#tema-2')
-                                    +navTemaItem('3', 'Especificación de Diseño de Producto PDS', '#tema-3')
-                                    +navTemaItem('question', 'Actividad didáctica', '#evaluacion')
+                                    +navTemaItem('1', 'Trazo, extendido y corte.', '#tema-1')
+                                    +navTemaItem('2', 'Ficha técnica.', '#tema-2')
+                                    +navTemaItem('3', 'Proceso de confección.', '#tema-3')
                                     +navTemaItem('glosary', 'Glosario', '#glosario')
-                                    +navTemaItem('folder', 'Material complementario', '#anexos')
                                     +navTemaItem('references', 'Referencias bibliográficas', '#referencias')
 
 
@@ -52,12 +50,8 @@ html(lang="es")
                 include pages/tema-2.pug         
             #tema-3
                 include pages/tema-3.pug
-            #evaluacion
-                include pages/actividad-1.pug
             #glosario
                 include pages/glosario.pug
-            #anexos
-                include pages/material-complementario.pug
             #referencias
                 include pages/referencias.pug
 
